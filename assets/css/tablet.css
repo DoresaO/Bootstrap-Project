@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+    #nav1, main, .nav-link{
+        display: none;
+    }
+    input[type="text"] {
+        display: none;
+    }
+    button[type="submit"] {
+        display: none;
+    }
+    #nav2 p{
+        display: none;
+    }
+    #nav2 img{
+        width: 212px !important;
+        margin-left: 365px;
+    }
+    header {
+        margin-top: 50px;
+    }
+    #navbarDropdown{
+        margin-left: 120px;
+        margin-top: -50px;
+        margin-bottom: 0;
+    }
+    nav.navbar.navbar-expand-xl.navbar-dark {
+        background-color: black;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    button {
+        box-shadow: 1px 0px 20px 5px rgba(90, 88, 88, 0.75);
+    }
+    .section-title ::after {
+        width: 15%;
+    }
+    .card1 img{   
+        height: 169px;
+        width: 299px;
+        margin-top: -35px;
+        margin-bottom: -11px;
+        margin-left: 20px;
+    }
+    footer img{
+        margin-left: 25px;
+        margin-bottom: 40px;
+    }
+
+  
+}
+
+
+

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Market Online - Blej si zotni, na ta bina n'shpi </title>
+    <!--<link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <script src="https://kit.fontawesome.com/3f01538ddf.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<!--ALERT--> 
+<div class="alert-box">
+  <p>Blej produkte mbi 20 euro <a href="#">dhe përfito transport falas! | Minimumi i porosisë 20 euro</a> </p>
+  <button class="close-button" onclick="closeAlert()">x</button>
+</div>
+<script> 
+function closeAlert() {
+  var alertBox = document.querySelector('.alert-box');
+  alertBox.style.display = 'none';}
+</script>
+<!-- HEADER -->
+<section id="nav1">
+  <div class="container">
+      <div class="row">
+        <div class="col-auto">
+          <a href="#">
+            <p><i class="fa-regular fa-user fa-xl" style="color: #fd0d0d; margin-right: 6px;"></i>Login </p>
+          </a>
+      </div>
+        <div class="col-auto">
+          <a href="#"><p>Regjistrohu</p></a>
+      </div>
+      <div class="col-auto">
+          <a href="#"><p>Politika e privatësisë</p></a>
+      </div>
+      </div>
+  </div>
+</section>
+<section id="nav2">
+    <div class="container">
+      <div class="row">
+        <div class="col-auto">
+         <a  href="main.html"><img style="width: 42%;" src="/assets/img/logo-2__1_.webp"  alt=""></a>
+        </div>
+        <div class="col-auto">
+          <div class="search-container">
+            <form action="#">
+              <input type="text" placeholder="Kërko Produktin" name="search"> 
+              <button type="submit">KËRKO</button>
+            </form>
+        </div>
+        </div>
+        <div class="col-auto">
+        <a href="#"><p style="margin-left: 30px;"><i class="fa-solid fa-heart fa-2xl " style="color: #f90b0b;margin-right: 6px;"></i>Lista ime  </p></a>
+        </div>
+        <div class="col-auto">
+        <a href="#"><p><i class="fa-solid fa-bag-shopping fa-2xl" style="color: #000000; margin-right: 6px;"></i>Shporta </p></a>
+        </div>
+      </div>  
+</div>
+</section>
+<header id="nav">
+  <nav class="navbar navbar-expand-xl navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              KATEGORITË
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#KafeTurke">PRINCE CAFFE TURKE</a></li>
+              <li><a class="dropdown-item" href="#Espresso">PRINCE ESPRESSO</a></li>
+              <li><a class="dropdown-item" href="#INSTANT">PRINCE INSTANT</a></li>
+              <li><a class="dropdown-item" href="#CHOCOLATE">HOT CHOCOLATE</a></li>
+              <li><a class="dropdown-item" href="#SR">STRONG & RICH</a></li>
+              <li><a class="dropdown-item" href="#KAPSULLA">PRINCE KAPSULLA</a></li>
+              <li><a class="dropdown-item" href="#QUICK">PRINCE QUICK</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">MIELL</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#FINNESA">FINNESA</a></li>
+              <li><a class="dropdown-item" href="#DILLINO">DILLINO</a></li>
+              <li><a class="dropdown-item" href="#SOFRA">SOFRA</a></li>
+              <li><a class="dropdown-item" href="#PREMIUM">MIELL PREMIUM</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="margin-left: 25px;">NA KONTAKTONI</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="margin-left: 900px;">Pagesë e sigurtë</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- MAIN -->
+<main>
+<div id="Main">
+    <div class="card mb-3">
+        <img src="./assets/img/web_banner1.webp" class="card-img-top" alt="PamjaEMadhe">
+    </div>
+</div>
+</main>
+
+<!--REKLAMAT-->
+<section id="Reklamat">
+    <div class="container">
+     <div class="card-group">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-4 col-sm-12">
+         <div class="card1">
+           <img src="./assets/img/Reklamat/pagesa.webp" class="card-img" alt="Pagesa">
+         </div>
+      </div>   
+      <div class="col col-lg-4 col-sm-12">
+         <div class="card1">
+            <img src="./assets/img/Reklamat/dergesa.webp" class="card-img" alt="Dergesa">
+         </div>
+      </div>
+      <div class="col col-lg-4 col-sm-12">
+      <div class="card1">
+        <img src="./assets/img/Reklamat/cilsia.webp" class="card-img" alt="Cilsia">
+      </div>
+     </div>
+    </div>
+     </div>
+</div>
+</section>
+
+<!--KATEGORITE 1-->
+<section id="KafeTurke">
+  <div class="container">
+    <div class="section-title">
+      <h2>Kafe Turke</h2>
+  </div>
+    <div class="row">
+      <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/KafeTurke/turke-1-300x374.jpg">
+              <div class="description">Prince Kafe Turke</div>
+          </div>
+      </div>
+      <!-- Repeat the above structure for each image -->
+  </div>
+  <!-- Repeat rows and columns for more images -->
+</div>
+</section>
+
+<!--KATEGORITE 2-->
+<section id="Espresso">
+  <div class="container">
+      <div class="section-title">
+          <h2>Prince Espresso</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Espresso/espresso-premium-300x374.jpg" alt="espresso-premium">
+                <div class="description">Prince Premium Espresso</div>
+                <div class="cost">€18,50</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Espresso/espresso-gold-300x374.jpg" alt="espresso-gold">
+              <div class="description">Prince Instant Gold</div>
+              <div class="cost">€16,00</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Espresso/grand-aroma-300x374.jpg" alt="grand-aroma">
+            <div class="description">Grande Aroma</div>
+              <div class="cost">€14,00</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Espresso/espresso-millenium-300x374.jpg" alt="espresso-millenium">
+            <div class="description">Millenium Espresso</div>
+              <div class="cost">€7,15</div>
+          </div>
+        </div>
+        <!-- Repeat the above structure for each image -->
+    </div>
+    <!-- Repeat rows and columns for more images -->
+  </div>
+</section>
+
+<!-- KATEGORITE 3 -->
+<section id="INSTANT">
+  <div class="container">
+      <div class="section-title">
+          <h2>Prince Instant</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Instant/3in1-1-300x374.jpg" alt="Prince Caffe 3in1 Classic ( 24 copë)">
+                <div class="description">Prince Caffe 3in1 Classic ( 24 copë) </div>
+                <div class="cost">€4,32</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/3in1mach-2-300x374.jpg" alt="Prince Machiato 3in1 (24 copë)">
+              <div class="description">Prince Machiato 3in1 (24 copë)</div>
+              <div class="cost">€4,32</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/irish-2-300x374.jpg" alt="Prince Irish 3in1 ( 24 copë)">
+              <div class="description">Prince Irish 3in1 ( 24 copë)</div>
+              <div class="cost">€5,04</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/2in1-1-300x374.jpg" alt="Prince Coffee & Creamer 2in1 (24 copë)">
+              <div class="description">Prince Coffee & Creamer 2in1 (24 copë)</div>
+              <div class="cost">€4,32</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/hazelnut-1-300x374.jpg" alt="Prince Hazelnut 3in1 (24 copë)">
+              <div class="description">Prince Hazelnut 3in1 (24 copë)</div>
+              <div class="cost">€4,32</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/vanill-2-300x374.jpg" alt="Prince Vanilla ( 8 copë )">
+              <div class="description">Prince Vanilla ( 8 copë ) </div>
+              <div class="cost">€2,40</div>
+          </div>
+        </div>
+        <!-- Repeat the above structure for each image -->
+    </div>
+    <!-- Repeat rows and columns for more images -->
+    <div class="row">
+      <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Instant/51-300x374.jpg" alt="PRINCE CLASSIC 3IN1 5+1 GRATIS">
+              <div class="description">PRINCE CLASSIC 3IN1 5+1 GRATIS</div>
+              <div class="cost">€0,89</div>
+          </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="image-card">
+          <img src="./assets/img/Instant/102-300x374.jpg" alt="PRINCE CLASSIC 3IN1 10+2 GRATIS">
+            <div class="description">PRINCE CLASSIC 3IN1 10+2 GRATIS</div>
+            <div class="cost">€1,78 </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KATEGORITE 4 -->
+<section id="CHOCOLATE">
+  <div class="container">
+      <div class="section-title">
+          <h2>Hot Chocolate</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Chocolate/hot-chocolate-choco-1-300x374.jpg" alt="Prince Choc Hot Chocolate ( 8 copë )">
+                <div class="description">Prince Choc Hot Chocolate ( 8 copë ) </div>
+                <div class="cost">€2,38</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Chocolate/hot-chocolate-vanilla-2-300x374.jpg" alt="Prince Vanilla Hot Chocolate ( 8 copë)">
+              <div class="description">Prince Vanilla Hot Chocolate ( 8 copë)</div>
+              <div class="cost">€2,38 </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Chocolate/hot-chocolate-hazelnut-1-300x374.jpg" alt="Prince Hazelnut Hot Chocolate ( 8 copë )">
+              <div class="description">Prince Hazelnut Hot Chocolate ( 8 copë )</div>
+              <div class="cost">€2,38 </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- KATEGORITE 5 -->
+<section id="SR">
+  <div class="container">
+      <div class="section-title">
+          <h2>Strong & Rich</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/SR/strong-1-3-300x374.jpg" alt="Strong & Rich">
+                <div class="description">Strong & Rich</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/SR/strong-stick-2-300x374.jpg" alt="Prince Strong & Rhich 2 gr (48 copë)">
+              <div class="description">Prince Strong & Rhich 2 gr (48 copë) </div>
+              <div class="cost">€2,40</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/SR/gold-1-300x374.jpg" alt="PRINCE INSTANT GOLD">
+              <div class="description">PRINCE INSTANT GOLD</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/SR/coffee-cream-400-300x374.jpg" alt="Coffee Cream">
+              <div class="description">Coffee Cream</div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>      
+
+<!-- KATEGORITE 6 -->
+<section id="KAPSULLA">
+  <div class="container">
+      <div class="section-title">
+          <h2>Prince Kapsulla</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Kapsulla/aparati-oferte_web-300x374.png" alt="Super ofertë">
+                <div class="description">Super ofertë </div>
+                <div class="cost">€79,99</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/kapsul-premium-stick-300x374.png" alt="Prince Kapsulla Premium 1×10 PCS 1+1 ">
+              <div class="description">Prince Kapsulla Premium 1×10 PCS 1+1 </div>
+              <div class="cost">€3,85</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/kapsul-ristretto-stick-300x374.png " alt="Prince Kapsulla Ristretto 1×10 PCS 1+1">
+              <div class="description">Prince Kapsulla Ristretto 1×10 PCS 1+1 </div>
+              <div class="cost"> €3,30</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/Prince-Kapsulla-Espresso-1×10-PCS-11-300x374.png" alt="Prince Kapsulla Espresso 1×10 PCS 1+1">
+              <div class="description">Prince Kapsulla Espresso 1×10 PCS 1+1</div>
+              <div class="cost">€2,97</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/kapsul-premium-pako-300x374.png" alt="Prince Kapsulla Premium 5×2 PCS 1+1 ">
+              <div class="description">Prince Kapsulla Premium 5×2 PCS 1+1</div>
+              <div class="cost">€3,85</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/kapsul-ristretto-pako-300x374.png" alt="Prince Kapsulla Ristretto 5×2 PCS 1+1">
+              <div class="description">Prince Kapsulla Ristretto 5×2 PCS 1+1</div>
+              <div class="cost">€3,30</div>
+          </div>
+        </div>
+        <!-- Repeat the above structure for each image -->
+    </div>
+    <!-- Repeat rows and columns for more images -->
+    <div class="row">
+      <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Kapsulla/kapsul-espresso-pako-300x374.png" alt="Prince Kapsulla Espresso 5×2 PCS 1+17 ">
+              <div class="description">Prince Kapsulla Espresso 5×2 PCS 1+17</div>
+              <div class="cost">€2,97</div>
+          </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="image-card">
+          <img src="./assets/img/Kapsulla/kapsul-premium-qese-300x374.png" alt="Prince Kapsulla Premium Qese 10pcs">
+            <div class="description">Prince Kapsulla Premium Qese 10pcs</div>
+            <div class="cost">€3,17</div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="image-card">
+          <img src="./assets/img/Kapsulla/kapsul-ristretto-qese-300x374.png" alt="Prince Kapsulla Ristretto Qese 10 PCS 1+1">
+            <div class="description">Prince Kapsulla Ristretto Qese 10 PCS 1+1</div>
+            <div class="cost">€3,08</div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="image-card">
+          <img src="./assets/img/Kapsulla/kapsul-espresso-qese-300x374.png" alt="Prince Kapsulla Espresso Qese 10 PCS 1+1">
+            <div class="description">Prince Kapsulla Espresso Qese 10 PCS 1+1</div>
+            <div class="cost">€2,75</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--KATEGORIA 7-->
+<section id="QUICK">
+  <div class="container">
+      <div class="section-title">
+          <h2>Prince Quick</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Quick/quixk-1-300x374.jpg" alt="Prince Quick">
+                <div class="description">Prince Quicko</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Quick/quick-stick-1-300x374.jpg" alt="Prince Quick Stick 14gr ( 24 copë )">
+              <div class="description">Prince Quick Stick 14gr ( 24 copë )</div>
+              <div class="cost">€4,32</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>      
+
+<!--KATEGORIA 8-->
+<section id="FINNESA">
+  <div class="container">
+      <div class="section-title">
+          <h2>Finnesa</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Finnesa/tip-400-25-kg-2-300x374.jpg" alt="Finesa Tip – 400">
+                <div class="description">Finesa Tip – 400 </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Finnesa/finnesa-tip-1000-300x374.jpg" alt="Finnesa Tip-1000 25 KG">
+              <div class="description">Finnesa Tip-1000 25 KG </div>
+              <div class="cost">€16,72 </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Finnesa/finnesa-tip-500-300x374.jpg" alt="Finnesa Tip-500 25 KG">
+              <div class="description">Finnesa Tip-500 25 KG </div>
+              <div class="cost">€16,53</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Finnesa/finnesa-integral-300x374.jpg" alt="Finnesa Tip Integral">
+              <div class="description">Finnesa Tip Integral </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Finnesa/finnesa-tip-special-300x374.jpg" alt="Finnesa Premium 24 KG">
+              <div class="description">Finnesa Premium 24 KG</div>
+              <div class="cost">€19,39</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--KATEGORIA 9-->
+<section id="DILLINO">
+  <div class="container">
+      <div class="section-title">
+          <h2>Dellino</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Dellino/dellino-premium-300x374.jpg" alt="Dellino Premium 24 KG">
+               <div class="description">Dellino Premium 24 KG  </div>
+               <div class="cost">€17,33</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Dellino/dellino-tip-400-300x374.jpg" alt="Dellino Tip-400">
+              <div class="description">Dellino Tip-400 </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Dellino/dellino-tip-500-300x374.jpg" alt="Dellino Tip-500 25 KG ">
+              <div class="description">Dellino Tip-500 25 KG </div>
+              <div class="cost">€16,26 </div>
+          </div>
+        </div>
+    </div>  
+  </div>    
+</section>
+
+
+<!--KATEGORIA 10-->
+<section id="SOFRA">
+  <div class="container">
+      <div class="section-title">
+          <h2>Sofra</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+              <img src="./assets/img/Sofra/sofra-300x374.jpg" alt="Sofra Tip-400 25KG">
+               <div class="description">Sofra Tip-400 25KG </div>
+               <div class="cost">€16,21</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Sofra/sofra-kaltert-300x374.jpg" alt="Sofra Tip-500 25KG">
+              <div class="description">Sofra Tip-500 25KG</div>
+              <div class="cost">€15,46</div>
+          </div>
+        </div>
+    </div>  
+  </div>      
+</section>
+
+<!--KATEGORIA 11-->
+<section id="PREMIUM">
+  <div class="container">
+      <div class="section-title">
+          <h2>Miell premium</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <div class="image-card">
+               <img src="./assets/img/Premium/muhlefellner-300x374.jpg" alt="Muhlefellner Tip-400">
+               <div class="description">Muhlefellner Tip-400</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="image-card">
+            <img src="./assets/img/Premium/mulino-di-grano-300x374.jpg" alt="Mulino Di Grano Tip 24KG">
+              <div class="description">Mulino Di Grano Tip 24KG </div>
+              <div class="cost">€19,41€</div>
+          </div>
+        </div>
+    </div>
+  </div>    
+</section>
+
+<!-- INFO -->
+<section id="info">
+  <div class="container">
+      <div class="row">
+          <div class="col-6 col-sm-3 col-md-3">
+              <div class="info">
+                  <div class="info-img">
+                      <img style="width: 60px;" src="./assets/img/info/24-hours-delivery-svgrepo-com.svg" alt="info">
+                  </div>
+                  <div class="info-footer">
+                      <h3>Brenda 24H</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3">
+              <div class="info">
+                  <div class="info-img">
+                      <img style=" padding-bottom: 10px;" src="./assets/img/info/download.png" alt="info">
+                  </div>
+                  <div class="info-footer">
+                      <h3>Në tërë KOSOVEN</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3">
+              <div class="info">
+                  <div class="info-img">
+                      <img src="./assets/img/info/Pagesa te sigurta.png" alt="info">
+                  </div>
+                  <div class="info-footer">
+                      <h3>Pagesa të sigurta</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3">
+              <div class="info">
+                  <div class="info-img">
+                      <img src="./assets/img/info/Ndihme teknike.png" alt="info">
+                  </div>
+                  <div class="info-footer">
+                      <h3>Ndihmë teknike</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!--FOOTER-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+               <a href="main.html"> <img src="./assets/img/logo_princecaffe_white.webp" alt="Prince Market Online"></a>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h3>SHËRBIMI PËR KLIENTË</h3>
+                <ul>
+                   <li><a href="#">Kushtet e përdorimit</a></li>
+                   <li><a href="#">Politika e privatësisë</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <h3>LLOGARIA IME</h3>
+                <ul>
+                    <li><a href="#">Produktet e pëlqyera</a></li>
+                    <li><a href="#">Shporta</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h3>PËRKRAHJE TEKNIKE</h3>
+                <ul>
+                    <li><h4>Thirr pa pagesë : 0800 18000 </h4></li>
+                    <li><h4>info@princemarketonline.com</h4></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="fundi">
+  <p>Web Faqe e Gatuar me <span><i class="fa-solid fa-heart fa-lg" style="color: #f00a0a;"></i></span>nga Prince Caffe</p>
+</div>
+
+<!--<script src="./assets/js/jquery-3.5.1.min.js"></script> --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
